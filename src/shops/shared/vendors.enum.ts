@@ -1,0 +1,12 @@
+export enum VendorType {
+	BOSS = 'BOSS',
+	VENDOR = 'VENDOR',
+	CONTENT_MANAGER = 'CONTENT_MANAGER',
+}
+
+export enum VendorStatus {
+	CREATED_BY_ADMIN = 'CREATED_BY_ADMIN',
+	ACTIVE = 'ACTIVE',
+	INACTIVE = 'INACTIVE',
+	BLOCKED = 'BLOCKED',
+}

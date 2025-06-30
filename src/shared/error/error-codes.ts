@@ -1,0 +1,19 @@
+export enum ErrorCodes {
+	ADMIN_NOT_FOUND = 104,
+	REGION_NOT_FOUND = 114,
+	SHOP_NOT_FOUND = 124,
+	VENDOR_NOT_FOUND = 134,
+	USER_NOT_FOUND = 144,
+
+	YOU_ARE_NOT_ALLOWED = 101,
+
+	USER_TOKEN_EXPIRED = 912,
+	USER_IN_BLACK_LIST = 901,
+}
+
+export enum ExceptionLevel {
+	INFO = 'INFO',
+	ERROR = 'ERROR',
+	DEBUG = 'DEBUG',
+}
+export const ERROR_PREFIX = 'BQ';
